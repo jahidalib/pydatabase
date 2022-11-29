@@ -1,0 +1,922 @@
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~ (master)
+$ git clone git@github.com:jahidalib/clonerepo.git
+Cloning into 'clonerepo'...
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 9 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (9/9), done.
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~ (master)
+$ cd clonerepo
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/clonerepo (main)
+$ ls
+calci.txt
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/clonerepo (main)
+$ cat calci.txt
+a=10
+b=20
+print(a+b)
+print(a-b)
+print(a*b)
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/clonerepo (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/clonerepo (main)
+$ git log
+commit 422f8934913604b9e129d227a87c6bdd8ceaf9d9 (HEAD -> main, origin/main, origin/HEAD)
+Author: jahidalib <116081024+jahidalib@users.noreply.github.com>
+Date:   Wed Oct 19 14:58:27 2022 +0530
+
+    multi commit
+
+commit 24366466b42969e5c4bd684561f50af68af8ed16
+Author: jahidalib <116081024+jahidalib@users.noreply.github.com>
+Date:   Wed Oct 19 14:57:50 2022 +0530
+
+    Update calci.txt
+
+commit 04aff61907ea9d57d9dfabe2fd29b31465e24ec2
+Author: jahidalib <116081024+jahidalib@users.noreply.github.com>
+Date:   Wed Oct 19 14:56:45 2022 +0530
+
+    Create calci.txt
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~ (master)
+$ git clone git@github.com:jahidalib/clonerepo.git
+Cloning into 'clonerepo'...
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 9 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (9/9), done.
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~ (master)
+$ cd clonerepo
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/clonerepo (main)
+$ ls
+calci.txt
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/clonerepo (main)
+$ cat calci.txt
+a=10
+b=20
+print(a+b)
+print(a-b)
+print(a*b)
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/clonerepo (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/clonerepo (main)
+$ git log
+commit 422f8934913604b9e129d227a87c6bdd8ceaf9d9 (HEAD -> main, origin/main, origin/HEAD)
+Author: jahidalib <116081024+jahidalib@users.noreply.github.com>
+Date:   Wed Oct 19 14:58:27 2022 +0530
+
+    multi commit
+
+commit 24366466b42969e5c4bd684561f50af68af8ed16
+Author: jahidalib <116081024+jahidalib@users.noreply.github.com>
+Date:   Wed Oct 19 14:57:50 2022 +0530
+
+    Update calci.txt
+
+commit 04aff61907ea9d57d9dfabe2fd29b31465e24ec2
+Author: jahidalib <116081024+jahidalib@users.noreply.github.com>
+Date:   Wed Oct 19 14:56:45 2022 +0530
+
+    Create calci.txt
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+pwd
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~
+$ git config --global user.name "jahid"
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~
+$ git config --global user.email "balbattiali@gmail.com"
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~
+$ cat ~/.config
+cat: /c/Users/CS-L2-PC02/.config: No such file or directory
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~
+$ cat ~/.gitconfig
+[user]
+        name = jahid
+        email = balbattiali@gmail.com
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~
+$ pwd
+/c/Users/CS-L2-PC02
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~
+$ cd pydatabase
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase
+$ pwd
+/c/Users/CS-L2-PC02/pydatabase
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase
+$ ls
+day1.ipynb
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase
+$ ls -a
+./  ../  day1.ipynb
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase
+$ git init
+Initialized empty Git repository in C:/Users/CS-L2-PC02/pydatabase/.git/
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ ls
+day1.ipynb
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ ls -a
+./  ../  .git/  day1.ipynb
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        day1.ipynb
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git add day1.ipynb
+warning: in the working copy of 'day1.ipynb', LF will be replaced by CRLF the next time Git touches it
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   day1.ipynb
+
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git commit -m " this is day first pyhton code for databse"
+[master (root-commit) feeaf43]  this is day first pyhton code for databse
+ 1 file changed, 288 insertions(+)
+ create mode 100644 day1.ipynb
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ vim readme.txt
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        readme.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git add readme.txt
+warning: in the working copy of 'readme.txt', LF will be replaced by CRLF the next time Git touches it
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   readme.txt
+
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git commit -m "readme file is commited"
+[master 84cffc9] readme file is commited
+ 1 file changed, 1 insertion(+)
+ create mode 100644 readme.txt
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ ls -a
+./  ../  .git/  day1.ipynb  readme.txt
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git log
+commit 84cffc912379132cee67e24d33c08e27eb035219 (HEAD -> master)
+Author: jahid <balbattiali@gmail.com>
+Date:   Tue Oct 18 11:15:44 2022 +0530
+
+    readme file is commited
+
+commit feeaf43a452f2573ee475e74eeb7749a0a684c98
+Author: jahid <balbattiali@gmail.com>
+Date:   Mon Oct 17 22:33:38 2022 -0700
+
+     this is day first pyhton code for databse
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ vim 1.txt
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ gti status
+bash: gti: command not found
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git add 1.txt
+warning: in the working copy of '1.txt', LF will be replaced by CRLF the next time Git touches it
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   1.txt
+
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git restore --staged 1.txt
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git add 1.txt
+warning: in the working copy of '1.txt', LF will be replaced by CRLF the next time Git touches it
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   1.txt
+
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git commit -m "1.txt commited"
+[master c8c013a] 1.txt commited
+ 1 file changed, 1 insertion(+)
+ create mode 100644 1.txt
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git log
+commit c8c013a3d032cf036a42c7bf0ec9f01ae871faba (HEAD -> master)
+Author: jahid <balbattiali@gmail.com>
+Date:   Tue Oct 18 12:20:24 2022 +0530
+
+    1.txt commited
+
+commit 84cffc912379132cee67e24d33c08e27eb035219
+Author: jahid <balbattiali@gmail.com>
+Date:   Tue Oct 18 11:15:44 2022 +0530
+
+    readme file is commited
+
+commit feeaf43a452f2573ee475e74eeb7749a0a684c98
+Author: jahid <balbattiali@gmail.com>
+Date:   Mon Oct 17 22:33:38 2022 -0700
+
+     this is day first pyhton code for databse
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   day1.ipynb
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .ipynb_checkpoints/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git add day1.ipynb
+warning: in the working copy of 'day1.ipynb', LF will be replaced by CRLF the next time Git touches it
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ gut status
+bash: gut: command not found
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   day1.ipynb
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .ipynb_checkpoints/
+
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git commit -m "day1 is modified and commited"
+[master 1c6c20a] day1 is modified and commited
+ 1 file changed, 43 insertions(+), 1 deletion(-)
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .ipynb_checkpoints/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git log
+commit 1c6c20a8c916fc7d09b040cfe54b3715185bd5e0 (HEAD -> master)
+Author: jahid <balbattiali@gmail.com>
+Date:   Tue Oct 18 12:34:29 2022 +0530
+
+    day1 is modified and commited
+
+commit c8c013a3d032cf036a42c7bf0ec9f01ae871faba
+Author: jahid <balbattiali@gmail.com>
+Date:   Tue Oct 18 12:20:24 2022 +0530
+
+    1.txt commited
+
+commit 84cffc912379132cee67e24d33c08e27eb035219
+Author: jahid <balbattiali@gmail.com>
+Date:   Tue Oct 18 11:15:44 2022 +0530
+
+    readme file is commited
+
+commit feeaf43a452f2573ee475e74eeb7749a0a684c98
+Author: jahid <balbattiali@gmail.com>
+Date:   Mon Oct 17 22:33:38 2022 -0700
+
+     this is day first pyhton code for databse
+
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ vim 1.txt
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ gti status
+bash: gti: command not found
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git add 1.txt
+warning: in the working copy of '1.txt', LF will be replaced by CRLF the next time Git touches it
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   1.txt
+
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git restore --staged 1.txt
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git add 1.txt
+warning: in the working copy of '1.txt', LF will be replaced by CRLF the next time Git touches it
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   1.txt
+
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git commit -m "1.txt commited"
+[master c8c013a] 1.txt commited
+ 1 file changed, 1 insertion(+)
+ create mode 100644 1.txt
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git log
+commit c8c013a3d032cf036a42c7bf0ec9f01ae871faba (HEAD -> master)
+Author: jahid <balbattiali@gmail.com>
+Date:   Tue Oct 18 12:20:24 2022 +0530
+
+    1.txt commited
+
+commit 84cffc912379132cee67e24d33c08e27eb035219
+Author: jahid <balbattiali@gmail.com>
+Date:   Tue Oct 18 11:15:44 2022 +0530
+
+    readme file is commited
+
+commit feeaf43a452f2573ee475e74eeb7749a0a684c98
+Author: jahid <balbattiali@gmail.com>
+Date:   Mon Oct 17 22:33:38 2022 -0700
+
+     this is day first pyhton code for databse
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   day1.ipynb
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .ipynb_checkpoints/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git add day1.ipynb
+warning: in the working copy of 'day1.ipynb', LF will be replaced by CRLF the next time Git touches it
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ gut status
+bash: gut: command not found
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   day1.ipynb
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .ipynb_checkpoints/
+
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git commit -m "day1 is modified and commited"
+[master 1c6c20a] day1 is modified and commited
+ 1 file changed, 43 insertions(+), 1 deletion(-)
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .ipynb_checkpoints/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/pydatabase (master)
+$ git log
+commit 1c6c20a8c916fc7d09b040cfe54b3715185bd5e0 (HEAD -> master)
+Author: jahid <balbattiali@gmail.com>
+Date:   Tue Oct 18 12:34:29 2022 +0530
+
+    day1 is modified and commited
+
+commit c8c013a3d032cf036a42c7bf0ec9f01ae871faba
+Author: jahid <balbattiali@gmail.com>
+Date:   Tue Oct 18 12:20:24 2022 +0530
+
+    1.txt commited
+
+commit 84cffc912379132cee67e24d33c08e27eb035219
+Author: jahid <balbattiali@gmail.com>
+Date:   Tue Oct 18 11:15:44 2022 +0530
+
+    readme file is commited
+
+commit feeaf43a452f2573ee475e74eeb7749a0a684c98
+Author: jahid <balbattiali@gmail.com>
+Date:   Mon Oct 17 22:33:38 2022 -0700
+
+     this is day first pyhton code for databse
+-------------------------------------------------------------------------------------------------------------------------------------
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~ (master)
+$ cd miniproject
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (master)
+$ ls
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (master)
+$ vim 1.txt
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (master)
+$ ls -a
+./  ../  1.txt
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (master)
+$ git init
+Initialized empty Git repository in C:/Users/CS-L2-PC02/miniproject/.git/
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (master)
+$ ls -a
+./  ../  .git/  1.txt
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (master)
+$ git add 1.txt
+warning: in the working copy of '1.txt', LF will be replaced by CRLF the next time Git touches it
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   1.txt
+
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (master)
+$ git commit -m "first commit"
+[master (root-commit) 3579e88] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 1.txt
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (master)
+$ git log
+commit 3579e88570f241d9ff04079f8da49bee788f476c (HEAD -> master)
+Author: jahid <balbattiali@gmail.com>
+Date:   Wed Oct 19 11:32:53 2022 +0530
+
+    first commit
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (master)
+$ git branch -M main
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (main)
+$ git remote add origin git@github.com:jahidalib/miniproject.git
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (main)
+$ git branch -M main
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 221 bytes | 221.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:jahidalib/miniproject.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (main)
+$ vim 1.txt
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (main)
+$ git add 1.txt
+warning: in the working copy of '1.txt', LF will be replaced by CRLF the next time Git touches it
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (main)
+$ git commit -m "second commit"
+[main 7682cd6] second commit
+ 1 file changed, 1 insertion(+)
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (main)
+$ git log
+commit 7682cd6499351ceb691023c8f3a4bb78bfc0e70c (HEAD -> main)
+Author: jahid <balbattiali@gmail.com>
+Date:   Wed Oct 19 11:38:45 2022 +0530
+
+    second commit
+
+commit 3579e88570f241d9ff04079f8da49bee788f476c (origin/main)
+Author: jahid <balbattiali@gmail.com>
+Date:   Wed Oct 19 11:32:53 2022 +0530
+
+    first commit
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (main)
+$ git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 262 bytes | 262.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:jahidalib/miniproject.git
+   3579e88..7682cd6  main -> main
+branch 'main' set up to track 'origin/main'.
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (main)
+$ git log
+commit 7682cd6499351ceb691023c8f3a4bb78bfc0e70c (HEAD -> main, origin/main)
+Author: jahid <balbattiali@gmail.com>
+Date:   Wed Oct 19 11:38:45 2022 +0530
+
+    second commit
+
+commit 3579e88570f241d9ff04079f8da49bee788f476c
+Author: jahid <balbattiali@gmail.com>
+Date:   Wed Oct 19 11:32:53 2022 +0530
+
+    first commit
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (main)
+$ git branch
+* main
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (main)
+$ git branch branch1
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (main)
+$ git branch
+  branch1
+* main
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (main)
+$ git checkout branch1
+Switched to branch 'branch1'
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (branch1)
+$ git branch
+* branch1
+  main
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (branch1)
+$ vim 1.txt
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (branch1)
+$ gti status
+bash: gti: command not found
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (branch1)
+$ git status
+On branch branch1
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (branch1)
+$ git add 1.txt
+warning: in the working copy of '1.txt', LF will be replaced by CRLF the next time Git touches it
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (branch1)
+$ git commit -m "third commit from branch1"
+[branch1 d5c0c4c] third commit from branch1
+ 1 file changed, 2 insertions(+)
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (branch1)
+$ gti log
+bash: gti: command not found
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (branch1)
+$ git log
+commit d5c0c4c27854993715d23fba6574442bc08ccd3b (HEAD -> branch1)
+Author: jahid <balbattiali@gmail.com>
+Date:   Wed Oct 19 12:30:27 2022 +0530
+
+    third commit from branch1
+
+commit 7682cd6499351ceb691023c8f3a4bb78bfc0e70c (origin/main, main)
+Author: jahid <balbattiali@gmail.com>
+Date:   Wed Oct 19 11:38:45 2022 +0530
+
+    second commit
+
+commit 3579e88570f241d9ff04079f8da49bee788f476c
+Author: jahid <balbattiali@gmail.com>
+Date:   Wed Oct 19 11:32:53 2022 +0530
+
+    first commit
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (branch1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (main)
+$ git log
+commit 7682cd6499351ceb691023c8f3a4bb78bfc0e70c (HEAD -> main, origin/main)
+Author: jahid <balbattiali@gmail.com>
+Date:   Wed Oct 19 11:38:45 2022 +0530
+
+    second commit
+
+commit 3579e88570f241d9ff04079f8da49bee788f476c
+Author: jahid <balbattiali@gmail.com>
+Date:   Wed Oct 19 11:32:53 2022 +0530
+
+    first commit
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (main)
+$ vim 1.txt
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (main)
+$ git add 1.txt
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (main)
+$ git commit -m "this is third commit from main"
+[main d8e47bc] this is third commit from main
+ 1 file changed, 2 insertions(+)
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (main)
+$ git log
+commit d8e47bc9897ea99ddd7f66952694a02d7f814459 (HEAD -> main)
+Author: jahid <balbattiali@gmail.com>
+Date:   Wed Oct 19 12:32:44 2022 +0530
+
+    this is third commit from main
+
+commit 7682cd6499351ceb691023c8f3a4bb78bfc0e70c (origin/main)
+Author: jahid <balbattiali@gmail.com>
+Date:   Wed Oct 19 11:38:45 2022 +0530
+
+    second commit
+
+commit 3579e88570f241d9ff04079f8da49bee788f476c
+Author: jahid <balbattiali@gmail.com>
+Date:   Wed Oct 19 11:32:53 2022 +0530
+
+    first commit
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (main)
+$ git push origin branch1
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 288 bytes | 288.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'branch1' on GitHub by visiting:
+remote:      https://github.com/jahidalib/miniproject/pull/new/branch1
+remote:
+To github.com:jahidalib/miniproject.git
+ * [new branch]      branch1 -> branch1
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (main)
+$ vim 1.txt
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (main)
+$ git merge branch1
+Auto-merging 1.txt
+CONFLICT (content): Merge conflict in 1.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (main|MERGING)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (main|MERGING)
+$ git add --all
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (main|MERGING)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+        modified:   1.txt
+
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (main|MERGING)
+$ git commit -m "merge commit"
+[main 4f09fe5] merge commit
+
+CS-L2-PC02@DESKTOP-3P9AG27 MINGW64 ~/miniproject (main)
+$ git log
+commit 4f09fe5796488435e1ad6bc4c74994ea5c0ea76d (HEAD -> main)
+Merge: d8e47bc d5c0c4c
+Author: jahid <balbattiali@gmail.com>
+Date:   Wed Oct 19 12:49:56 2022 +0530
+
+    merge commit
+
+commit d8e47bc9897ea99ddd7f66952694a02d7f814459
+Author: jahid <balbattiali@gmail.com>
+Date:   Wed Oct 19 12:32:44 2022 +0530
+
+    this is third commit from main
+
+commit d5c0c4c27854993715d23fba6574442bc08ccd3b (origin/branch1, branch1)
+Author: jahid <balbattiali@gmail.com>
+Date:   Wed Oct 19 12:30:27 2022 +0530
+
+    third commit from branch1
+
+commit 7682cd6499351ceb691023c8f3a4bb78bfc0e70c (origin/main)
+Author: jahid <balbattiali@gmail.com>
+Date:   Wed Oct 19 11:38:45 2022 +0530
+
+    second commit
+
+commit 3579e88570f241d9ff04079f8da49bee788f476c
+Author: jahid <balbattiali@gmail.com>
+Date:   Wed Oct 19 11:32:53 2022 +0530
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
